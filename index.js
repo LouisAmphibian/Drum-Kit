@@ -58,3 +58,19 @@ function sound(key){
     default: console.log(buttonInnerHTML);
 }
 }
+
+
+//adding animation function
+function buttonAnimation(key){
+
+var activeButton = document.querySelectorAll("."+key);
+
+//adding the class
+activeButton.classList.add("pressed");
+
+//removing the class after being pressed
+setTimeout(function(){
+    activeButton.classList.remove("pressed");
+}, 100);
+
+}
