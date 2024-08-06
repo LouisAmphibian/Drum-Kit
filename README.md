@@ -34,18 +34,17 @@ Pull requests are welcome. No major changes, please open an issue first to discu
 ### [06-Aug-2024]
 
 ### Features Added:
-1. The user can now roll a dice every time the page is refreshedThe user can now roll a dice every time the page is refreshed.
-2. The dice roll result is displayed prominently on the screen.
-3. The dice roll is simulated using a random number generator.
+1. Users can play drum sounds by clicking on the buttons or pressing the corresponding keyboard keys.
+2. Each drum button is prominently displayed on the screen with associated labels.
+3. Drum sounds are played using audio files triggered by JavaScript events.
 4. The interface is styled using CSS to provide a visually appealing experience.
-5. The application uses the DOM to dynamically update the displayed dice result.
-6. Users can see an animation effect when the dice roll result is updated.
+5. The application uses the DOM to dynamically update the visual effects when buttons are activated.
+6. Users see an animation effect when a drum button is clicked or a key is pressed.
 
-#### Non-functional requirements:
+#### Non-Functional Requirements:
 7. Internationally acceptable coding standards are adhered to.
 8. Classes and modular JavaScript are used throughout the application.
 9. Best practices for HTML and CSS are followed to ensure a clean and maintainable codebase.
 10. The application is lightweight and loads quickly in the browser.
-11. The design is responsive, ensuring the game works well on both desktop and mobile devices.
-12. Basic unit tests are implemented to verify the randomness of the dice roll.
-
+11. The design is responsive, ensuring the application works well on both desktop and mobile devices.
+12. Basic unit tests are implemented to verify the functionality of the drum sounds.
