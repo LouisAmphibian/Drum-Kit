@@ -9,6 +9,8 @@ for (var i =0; i<numberOfDrumButton; i++){
         var buttonInnerHTML = this.innerHTML;    
 
        sound(buttonInnerHTML);
+       
+       buttonAnimation(buttonInnerHTML);
     });
 }
 
@@ -19,6 +21,7 @@ var keyboad = event.key;
 
 sound(keyboad);
 
+buttonAnimation(keyboad);
 });
 
 //fuction to take in the key or action 
